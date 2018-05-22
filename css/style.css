@@ -1,0 +1,178 @@
+body{
+	position: relative;
+}
+
+h1, h2, h3{
+	font-family: 'Shrikhand', cursive;
+}
+
+/*===========================================================NAVBAR===============================================================*/
+
+.navbar-light .navbar-nav .nav-link{
+	font-family: 'Shrikhand', cursive;
+	color: #007bff;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.navbar-brand{
+	font-family: 'Shrikhand', cursive;
+	font-size: 1.9em;
+	font-weight: 500;
+	color: #007bff;
+}
+
+/*===========================================================BANNER===============================================================*/
+
+
+.carousel-item img {
+	height: 850px;
+}
+
+
+
+.carousel-caption{
+	color: #99FFCC;
+	font-size: 24.5px;
+	font-family: 'Shrikhand', cursive;
+	bottom: 40%;
+	left: 17.5%;
+}
+
+}
+
+
+
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+/*============================================================GET-FOOD============================================================*/
+
+.get-food{
+	margin-top: 75px;
+}
+
+.ones {
+	color:black;
+}
+
+
+.food p{
+	color:black;
+}
+
+
+
+/*=========================================================VIEW-OUR-PLATES========================================================*/
+
+.plates{
+	margin-top: 75px;
+}
+
+/*=========================================================APP====================================================================*/
+
+.app{
+	margin-top: 75px;
+}
+
+
+.app p{
+	color:black;
+}
+
+
+
+/*==========================================================CUSTOMERS=============================================================*/
+
+.customers{
+	height: 525px;
+	margin-top: 117.5px;
+	padding-top: 75px;
+	background: url('../img/customers/1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	color: white;
+	height: 525px;
+}
+
+
+@media screen and (max-width: 767px){
+    .customers {
+		height: 2300px;.
+    }
+}
+
+
+.customers h3, p{
+	color: white;
+}
+
+/*===========================================================DELIVERY=============================================================*/
+
+.delivery{
+	margin-top: 117.5px;
+}
+
+
+/*=============================================================FOOTER=============================================================*/
+
+
+
+
+footer{
+	margin-top: 75px;
+	padding-top: 77px;
+	background-color: black;
+	height: 325px;
+}
+
+@media screen and (max-width: 767px){
+    footer {
+		height: 600px;.
+    }
+}
+
+
+
+footer h3{
+	color: #99FFCC;
+
+}
+
+footer h5, h6{
+	color: white;
+}
+
+
+footer h5, a:link{
+	text-decoration: none;
+	pointer-events: none !important;
+}
+
+@media screen and (max-width: 767px){
+    .social {
+		margin-left: 57.7%;.
+    }
+}
+
